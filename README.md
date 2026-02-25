@@ -1,5 +1,5 @@
 # 25Clash
-The world's first private server emulator for Clash of Clans 18.0.2 (2025) written on Node.js
+The world's first private server emulator for Clash of Clans 18.0.5 (2025) written on Node.js
 
 ## Requirements
 * [Node.js](https://nodejs.org)
