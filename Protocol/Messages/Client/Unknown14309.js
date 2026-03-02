@@ -6,7 +6,7 @@ class Unknown14309 extends PiranhaMessage {
     super(bytes)
     this.client = client
     this.id = 14309
-    this.version = 0
+    this.version = 1
   }
 
   async decode () {}

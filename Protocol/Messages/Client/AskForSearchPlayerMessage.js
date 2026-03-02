@@ -6,7 +6,7 @@ class AskForPlayerProfileMessage extends PiranhaMessage {
     super(bytes)
     this.client = client
     this.id = 19696
-    this.version = 0
+    this.version = 1
   }
 
   async decode () {}

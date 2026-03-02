@@ -5,7 +5,7 @@ class ChangeAvatarNameMessage extends PiranhaMessage {
     super()
     this.id = 21156
     this.client = client
-    this.version = 0
+    this.version = 1
     this.Name = name
   }
 

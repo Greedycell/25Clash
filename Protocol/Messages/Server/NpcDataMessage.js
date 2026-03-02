@@ -5,7 +5,7 @@ class NpcDataMessage extends PiranhaMessage {
     super()
     this.id = 24346
     this.client = client
-    this.version = 0
+    this.version = 1
   }
 
   async encode() {

@@ -1,5 +1,4 @@
 const PiranhaMessage = require('../../PiranhaMessage')
-const LoginFailedMessage = require('../Server/LoginFailedMessage')
 const LoginOkMessage = require('../Server/LoginOkMessage')
 const OwnHomeDataMessage = require('../Server/OwnHomeDataMessage')
 
@@ -8,7 +7,7 @@ class LoginMessage extends PiranhaMessage {
     super(bytes)
     this.client = client
     this.id = 10101
-    this.version = 0
+    this.version = 1
   }
 
   async decode () {
@@ -21,7 +20,7 @@ class LoginMessage extends PiranhaMessage {
     this.data.Build = this.readVInt()
     this.data.Content = this.readVInt()
 
-    console.log(this.data)
+    //console.log(this.data)
   }
 
   async process () {

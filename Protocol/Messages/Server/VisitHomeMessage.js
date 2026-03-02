@@ -5,7 +5,7 @@ class VisitHomeMessage extends PiranhaMessage {
     super()
     this.id = 25863
     this.client = client
-    this.version = 0
+    this.version = 1
   }
 
   async encode() {

@@ -6,7 +6,7 @@ class KeepAliveMessage extends PiranhaMessage {
     super(bytes)
     this.client = client
     this.id = 10108
-    this.version = 0
+    this.version = 1
   }
 
   async decode () {}
